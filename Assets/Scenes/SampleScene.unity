@@ -376,7 +376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 613, y: 32}
+  m_AnchoredPosition: {x: 492, y: 32}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &623841148
@@ -571,17 +571,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753658032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9312837, y: 2.9312837, z: 2.9312837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1058380561}
+  m_Father: {fileID: 1221122023}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355.6, y: -382}
-  m_SizeDelta: {x: 138.5, y: 30}
+  m_AnchoredPosition: {x: -29.495, y: -155.9385}
+  m_SizeDelta: {x: 627.12, y: 113.1928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &753658034
 MonoBehaviour:
@@ -605,18 +605,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9320f8032c9f5b542a1597eedcdc756f, type: 3}
-    m_FontSize: 96
+    m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 96
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Me gusta Peter Parker
+  m_Text: 
 --- !u!222 &753658035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -632,7 +632,7 @@ CanvasGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753658032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
@@ -846,8 +846,6 @@ RectTransform:
   m_Children:
   - {fileID: 290964358}
   - {fileID: 1221122023}
-  - {fileID: 753658033}
-  - {fileID: 2089260598}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -884,15 +882,17 @@ RectTransform:
   m_GameObject: {fileID: 1221122022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7601, y: 1.7601, z: 1.7601}
+  m_LocalScale: {x: 1.3094, y: 1.3094, z: 1.3094}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 753658033}
+  - {fileID: 2089260598}
   m_Father: {fileID: 1058380561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 30, y: 351}
-  m_SizeDelta: {x: 129.75, y: 604.4}
+  m_AnchoredPosition: {x: 70, y: 310}
+  m_SizeDelta: {x: 132.27487, y: 604.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1221122024
 MonoBehaviour:
@@ -1075,6 +1075,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289653302}
   m_CullTransparentMesh: 1
+--- !u!1 &2048897434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048897436}
+  - component: {fileID: 2048897435}
+  m_Layer: 0
+  m_Name: TextTexter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2048897435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048897434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d49e37306033c4c946eef54c6c6b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 753658034}
+  delay: 0.1
+  dialogueLines:
+  - Hola que tal estas?
+  - Como estan yendo los estudios?
+  - Me alegra oir eso, de verdad.
+  dialogueIndex: 0
+--- !u!4 &2048897436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048897434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 758.0307, y: 31.750996, z: 11.545817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2089260597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,15 +1155,15 @@ RectTransform:
   m_GameObject: {fileID: 2089260597}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6718, y: 1.6718, z: 1.6718}
+  m_LocalScale: {x: 0.9498324, y: 0.9498324, z: 0.9498324}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1058380561}
+  m_Father: {fileID: 1221122023}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -433, y: -278}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -229.6939, y: -55.1986}
+  m_SizeDelta: {x: 230.2426, y: 39.7559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089260599
 MonoBehaviour:
@@ -1197,3 +1248,4 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 1058380561}
   - {fileID: 441144491}
+  - {fileID: 2048897436}
