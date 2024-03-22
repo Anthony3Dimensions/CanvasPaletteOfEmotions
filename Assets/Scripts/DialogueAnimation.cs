@@ -7,7 +7,7 @@ public class DialogueAnimation : MonoBehaviour
 {
     
     public Text dialogueText;
-    public float delay = 0.1f;
+    public float delay = 0.5f;
     public string[] dialogueLines;
     public int dialogueIndex;
     private bool imTalking;
