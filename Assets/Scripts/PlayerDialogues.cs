@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 public class PlayerDialogues : MonoBehaviour
 {
-    public TMP_Text textBox;
+    /*public TMP_Text textBox;
     private string[] dialogueLines;
     private int currentLine;
     private bool playerInRange = false;
@@ -39,7 +39,7 @@ public class PlayerDialogues : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if(collider.gameObject.tag == "Player")
+        if(Collider.gameObject.tag == "Player")
         {
             playerInRange = true;
         }
@@ -47,9 +47,9 @@ public class PlayerDialogues : MonoBehaviour
 
     void OnTriggerExit()
     {
-        if(collider.gameObject.tag == "Player")
+        if(Collider.gameObject.tag == "Player")
         {
             playerInRange = false;
         }
-    }
+    }*/
 }
